@@ -1,0 +1,330 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 15px;
+    padding: 30px;
+}
+.card{
+    background-color: gray;
+}
+
+/* card1 */
+
+.card1{
+    margin: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+.card1:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card1 img{
+    width: 100%;
+}
+.card1 .content{
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    
+}
+.card1 .footer{
+    display: flex;
+    justify-content: center;
+}
+.footer button{
+    padding: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.footer button:hover{
+    background-color: #2fb4cc;
+    color: #fff;
+}
+
+
+
+/* card2 */
+
+.card2 img{
+    width: 100%;
+    height: auto;
+}
+.card2{
+    margin: 10px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 20px 60px;
+}
+.card2 h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card2 p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* card3 */
+.card3 img{
+    width: 100%;
+    height: 65%;
+}
+.card3{
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+    border-radius: 30px 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.card3:hover{
+    transform: translateY(20px);
+    background: #f12711; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f12711, #f5af19); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: #fff; 
+}
+
+/* card4 */
+.card4{
+    background-color: #000000;
+    color: #fff;
+    border: 5px solid #5BB854;
+    border-radius: 15px;
+}
+.card4:hover{
+    box-shadow: 5px 5px 20px rgba(5, 223, 27, 0.5);
+}
+.card4 .img{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.card4 .img img{
+    width: 90%;
+    border-radius: 15px;
+}
+.card4 .cont{
+    text-align: center;
+}
+.card4 .cont h2{
+    font-size: 15px;
+}
+.card4 .cont h1{
+    font-size: 25px;
+}
+.card4 .butom{
+    display: flex;
+}
+.card4 .butom button{
+    background-color: #5BB854;
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* card5 */
+.card5{
+    border: 4px solid #000000;
+    padding: 20px;
+    transition: all 500ms ease;
+}
+.card5 .icono{
+    display: flex;
+    justify-content: center;
+}
+.card5 .icono img{
+    width: 30%;
+}
+.card5 .content{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+}
+.card5 .content h1{
+    font-size: 30px;
+}
+.card5 .content p{
+    font-size: 18px;
+}
+.card5 .butom5{
+    display: flex;
+    justify-content: center;
+}
+.card5 .butom5 button{
+    padding: 15px;
+    width: 90%;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+.card5:hover{
+    background-color: #E75480;
+    color: #fff;
+}
+.card5 .butom5 button:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+/* card6 */
+
+.card6{
+    margin: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 400ms ease;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.card6:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card6 .img6 img{
+    width: 100%;
+}
+.card6 .texto6{
+    text-align: center;
+}
+.card6 .texto6 h1{
+    font-size: 35px;
+}
+.card6 .texto6 p{
+    font-size: 20px;
+}
+.card6 .texto6 h2{
+    font-size: 30px;
+}
+.footer6{
+    background-color: #2fb4cc;
+    text-align: center;
+    color: #fff;
+}
+.footer6 h1{
+    padding: 15px;
+}
+
+/* card7 */
+.card7{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+.card7 .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+
+}
+
+.card71{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.card71 .circle1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #f5af19;
+    clip-path: circle(180px at center 0);
+    
+}
+
+/* card8--------------------------------------------- */
+
+.wrapper{
+    padding: 10px 10%;
+    background-color: #262626;
+    color: #fff;
+}
+#card-area{
+    padding: 50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit,minmax(400px, 1fr));
+    grid-gap: 40px;
+}
+.box{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay{
+    height: 0;
+    /* width: 100%; esto lo arruina */
+    background: linear-gradient(transparent, black 58%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* overflow: hidden; */
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: heigth 0.5s;
+}
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.overlay a{
+    margin-top: 10px;
+    color: #262626;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 8px;
+}
+.box:hover img{
+    transform: scale(1.2);
+}
+.box:hover .overlay{
+    height: 100%;
+}
